@@ -1,0 +1,24 @@
+{
+  "name": "Deem-BE",
+  "version": "1.0.0",
+  "description": "App to utilize unspent giftcard balances using XRP.",
+  "main": "app.js",
+  "author": "Aaron Johnson",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.6"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "_moduleAliases": {
+    "@": "."
+  }
+}
